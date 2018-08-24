@@ -1,0 +1,42 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Twitter Clone
+    link(rel='shortcut icon', href='/favicon.png')
+    link(rel="stylesheet", href="/css/bootstrap.min.css")
+    style.
+      body {
+      padding-top: 60px;
+      margin-bottom: 75px;
+      }
+      .media {
+      padding: 10px;
+      margin-top: 0;
+      }
+      .media:hover {
+      background: #f9f9f9;
+      }
+      .feed.img-rounded {
+      width: 64px;
+      height: 64px;
+      }
+      .perfil.img-rounded {
+      width: 100px;
+      height: 100px;
+      }
+      .explorar .foto-perfil {
+      width: 55px;
+      }
+  body
+    include componentes/header
+
+    .container
+      include componentes/flash
+      block contenido
+
+    include componentes/footer
+    script(src='/js/jquery.min.js')
+    script(src="/js/bootstrap.min.js")
