@@ -90,7 +90,7 @@ app.post('/explorar', controladorExplorar.postExplorar)
 
 //#region inicalizacion de App
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log('Iniciando por el puerto 3000')
 })
 
