@@ -20,7 +20,7 @@ const controladorExplorar = require('./controladores/explorar')
 //#region constantes de datos
 
 const app = express()
-const MONGO_URL = 'mongodb://rodolfokenlly:2812NaHv#L@ds149056.mlab.com:49056/heroku_h1502k7q'
+const MONGO_URL = 'mongodb://heroku_h1502k7q:heroku_h1502k7q@ds149056.mlab.com:49056/heroku_h1502k7q'
 
 //#endregion constantes de datos
 
