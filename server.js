@@ -20,7 +20,7 @@ const controladorExplorar = require('./controladores/explorar')
 //#region constantes de datos
 
 const app = express()
-const MONGO_URL = 'mongodb://127.0.0.1:27017/sessionsWeb'
+const MONGO_URL = process.env.MONGODB || 'mongodb://127.0.0.1:27017/sessionsWeb'
 
 //#endregion constantes de datos
 
