@@ -6,10 +6,10 @@
   "version": "",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "bootstrap3": "^3.3.5",
     "connect-mongo": "^2.0.1",
-    "express": "^4.16.3",
+    "express": "^4.18.2",
     "express-flash": "0.0.2",
     "express-session": "^1.15.6",
     "jquery": "^3.3.1",
